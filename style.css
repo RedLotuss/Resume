@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #333;
+}
+header h1 {
+    margin: 0;
+    color: #333;
+}
+.contact-info, .summary, .education, .experience, .skills, .tools, .languages, .interests {
+    margin-bottom: 20px;
+}
+.section-title {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-info p, .summary p, .education p, .experience p, .skills p, .tools p, .languages p, .interests p {
+    margin: 5px 0;
+}
+.contact-info p a {
+    color: #333;
+    text-decoration: none;
+}
+.contact-info p a:hover {
+    text-decoration: underline;
+}
